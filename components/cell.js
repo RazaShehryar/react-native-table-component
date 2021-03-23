@@ -4,7 +4,7 @@ import { View, ViewPropTypes, Text, StyleSheet } from 'react-native';
 export class Cell extends Component {
   static propTypes = {
     style: {},
-    textStyle: Text.propTypes.style,
+    textStyle: {},
     borderStyle: {},
   };
 
