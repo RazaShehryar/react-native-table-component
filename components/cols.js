@@ -7,7 +7,7 @@ import { sum } from '../utils';
 export class Col extends Component {
   static propTypes = {
     width: PropTypes.number,
-    style: ViewPropTypes.style,
+    style: {},
     textStyle: Text.propTypes.style
   };
 
@@ -27,7 +27,7 @@ export class Col extends Component {
 
 export class Cols extends Component {
   static propTypes = {
-    style: ViewPropTypes.style,
+    style: {},
     textStyle: Text.propTypes.style
   };
 

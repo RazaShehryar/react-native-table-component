@@ -3,8 +3,8 @@ import { View, ViewPropTypes } from 'react-native';
 
 export class Table extends Component {
   static propTypes = {
-    style: ViewPropTypes.style,
-    borderStyle: ViewPropTypes.style
+    style: {},
+    borderStyle: {},
   };
 
   _renderChildren(props) {
@@ -41,7 +41,7 @@ export class Table extends Component {
 
 export class TableWrapper extends Component {
   static propTypes = {
-    style: ViewPropTypes.style
+    style: {},
   };
 
   _renderChildren(props) {
